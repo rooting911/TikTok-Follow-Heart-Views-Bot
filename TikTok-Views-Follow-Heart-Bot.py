@@ -24,7 +24,7 @@ def loop1():
         loop1()
     try:
         sleep(2)
-        driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/input").send_keys(https://vt.tiktok.com/ZSR2QuAdX/?k=1)
         sleep(1)
         driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/div/button").click()
         sleep(2)
@@ -101,7 +101,7 @@ def loop4():
         sleep(wait_time)
         loop4()
 
-vidUrl = "https://www.tiktok.com/@social_degradation_crazy/video/6890937108874169601" #Change with one of your tiktok videos
+vidUrl = "https://vt.tiktok.com/ZSR2QuAdX/?k=1" #Change with one of your tiktok videos
 
 system("clear") #If you have Windows you can use cls
 tiktokbot = pyfiglet.figlet_format("NoNameoN", font="slant")
